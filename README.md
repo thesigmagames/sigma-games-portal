@@ -1,19 +1,29 @@
-# SiGMA GAMES – Oyun Portalı
+# Welcome to your Lovable project
 
-350+ ücretsiz tarayıcı oyunu tek yerde: kendi yaptığımız SiGMA oyunları + dev iframe oyun arşivi.
+This project was built with [Lovable](https://lovable.dev).
 
-## Özellikler
-- 🟢 Yeşil START kapısı + arka plan müziği
-- 🔍 Arama, kategoriler, favoriler, geçmiş, popüler/yeni
-- 🤖 Sigma AI: ne tür oyun istediğini yaz, yapay zekâ katalogdan önersin
-- 👍👎 Her oyun için bulutta (Supabase) like/dislike
-- 🖥️ Tam ekran iframe oynatıcı, rastgele oyun, tema seçimi
+## Build with Lovable
 
-## Kurulum
-1. `tr/index.html` dosyasını sitenize koyun (ör. GitHub Pages'te `/tr/` altına).
-2. Oylama için `vote_game.sql` dosyasını Supabase SQL editöründe **1 kez** çalıştırın (API/Anon Key değişmez).
-3. AI önerileri Lovable üzerinden yayınlanan siteden otomatik çalışır.
+Open your project in the [Lovable editor](https://lovable.dev) and keep building.
 
-## Canlı
-- Portal: `tr/index.html`
-- Oyunlar: thesigmagames.github.io üzerinden yüklenir, portal her yerde çalışır.
+- **Ship faster**: describe what you want to build and Lovable handles the code.
+- **Stay in sync**: connect the project to GitHub and every change made in Lovable is committed straight to your repository.
+- **Full ownership**: this code is yours. Push to your repository and your changes sync back into Lovable, ready for your next prompt.
+
+## Development
+
+Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+
+```sh
+git clone <this-repository-url>
+cd <repository-name>
+npm i
+npm run dev
+```
+
+## Built with
+
+- TanStack Start
+- TypeScript
+- React
+- Tailwind CSS
